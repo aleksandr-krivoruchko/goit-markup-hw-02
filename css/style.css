@@ -1,0 +1,18 @@
+/* main color */
+#757575, 
+/* second color */
+#12121 
+/* accent color */
+#2196F3, #000000
+/* white color */
+#FFFFFF
+
+
+
+body {
+  background: #ffffff;
+}
+.header a:hover,
+.header a:focus {
+  color: #2196f3;
+}
