@@ -12,7 +12,7 @@
 body {
   background: #ffffff;
 }
-
+<!-- !ШАПКА -->
 /* Логотип */
 .logo {
   color: #000000;
@@ -25,9 +25,8 @@ body {
 .logo-span {
   color: #2196f3;
 }
-
 /* Навигация сайта */
-..site-nav {
+.site-nav {
   color: #212121;
   font-family: Roboto;
   font-style: normal;
@@ -51,5 +50,60 @@ body {
 .mail-tel > a:hover {
   color: #2196f3;
 }
+/* Стиль ГЕРОЯ */
 
-/*  */
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+/* Стили секций */
+.section p {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.section-title {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+.section-subtitle {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* Наша команда */
+.list-title {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.list p {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
