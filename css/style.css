@@ -1,7 +1,7 @@
 /* main color */
 #757575, 
 /* second color */
-#12121 
+#212121 
 /* accent color */
 #2196F3, #000000
 /* white color */
@@ -12,7 +12,44 @@
 body {
   background: #ffffff;
 }
-.header a:hover,
-.header a:focus {
+
+/* Логотип */
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo-span {
   color: #2196f3;
 }
+
+/* Навигация сайта */
+..site-nav {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+.mail-tel > a {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.mail-tel > a:focus,
+.mail-tel > a:hover {
+  color: #2196f3;
+}
+
+/*  */
