@@ -3,19 +3,23 @@
   --accent-color: #2196f3;
   --title-text-color: #212121;
   --main-bg-color: #ffffff;
+  --second-bg-color: #f5f4fa;
   --accent-bg-color: #2f303a;
 }
 
 body {
   background: var(--main-bg-color);
   color: #757575;
-  font-family: Roboto;
-  font-style: normal;
+  font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
 /* Убироет точечки в списке */
 ul {
   list-style: none;
+}
+/* Убирает подчеркивание ссылкам */
+a {
+  text-decoration: none;
 }
 
 /* Логотип */
@@ -23,7 +27,7 @@ ul {
   color: #000000;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 .logo-footer {
   color: var(--main-bg-color);
@@ -36,7 +40,7 @@ ul {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -45,12 +49,11 @@ ul {
 .site-nav a.current {
   color: var(--accent-color);
 }
-
 .mail-tel > a {
   color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
 .mail-tel > a:focus,
 .mail-tel > a:hover {
@@ -64,62 +67,61 @@ ul {
   color: var(--main-bg-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
 }
 .hero-button {
   color: var(--main-bg-color);
   background-color: var(--accent-color);
 }
 
-/* Стили секций */
-
+/* Features */
 .section-title {
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
 }
 .section-subtitle {
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
-.section p {
+.features p {
   color: var(--main-text-color);
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 }
 
 /* Наша команда */
+.team {
+  background-color: var(--second-bg-color);
+}
 .list-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 }
 .list p {
   color: var(--main-text-color);
-  font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 }
-/* footer */
+
+/* Footer */
 .footer {
   background-color: var(--accent-bg-color);
 }
 .address {
   color: #ffffff;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 }
 .footer .link {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
