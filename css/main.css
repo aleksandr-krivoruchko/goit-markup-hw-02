@@ -22,6 +22,7 @@ a {
   text-decoration: none;
 }
 
+/* !H E A D E R */
 /* Логотип */
 .logo {
   color: #000000;
@@ -35,6 +36,8 @@ a {
 .logo-span {
   color: var(--accent-color);
 }
+
+/* !M A I N */
 /* Навигация сайта */
 .site-nav a {
   color: var(--title-text-color);
@@ -44,9 +47,6 @@ a {
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: var(--accent-color);
-}
-.site-nav a.current {
   color: var(--accent-color);
 }
 .mail-tel > a {
@@ -75,6 +75,8 @@ a {
 }
 
 /* Features */
+.features {
+}
 .section-title {
   color: var(--title-text-color);
   font-weight: bold;
@@ -93,23 +95,56 @@ a {
   line-height: 1.71;
 }
 
+/* Чем мы занимаемся */
+.work {
+}
+
 /* Наша команда */
 .team {
   background-color: var(--second-bg-color);
 }
-.list-title {
+.team .title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
-.list p {
+.team p {
   color: var(--main-text-color);
   font-size: 16px;
   line-height: 1.19;
 }
 
-/* Footer */
+/* filter-list */
+.filter-list button {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: var(--second-bg-color);
+  border: hidden;
+  cursor: pointer;
+}
+.filter-list button:hover,
+.filter-list button:focus {
+  color: var(--main-bg-color);
+  background-color: var(--accent-color);
+  border-radius: 5px;
+}
+
+/* portfolio-list */
+.portfolio-list h2 {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.portfolio-list p {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* !F o o t e r */
 .footer {
   background-color: var(--accent-bg-color);
 }
