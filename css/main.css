@@ -10,10 +10,10 @@
 body {
   background: var(--main-bg-color);
   color: #757575;
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* Убироет точечки в списке */
+/* Убирает точечки в списке */
 ul {
   list-style: none;
 }
@@ -25,6 +25,7 @@ a {
 /* !H E A D E R */
 /* Логотип */
 .logo {
+  font-family: 'Raleway', sans-serif;
   color: #000000;
   font-weight: bold;
   font-size: 26px;
@@ -117,6 +118,7 @@ a {
 
 /* filter-list */
 .filter-list button {
+  font-family: 'Roboto', sans-serif;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
